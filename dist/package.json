@@ -1,5 +1,5 @@
 {
-    "name": "@dfgpublicidade/node-validation-module",
+    "name": "@dfgpublicidade/node-util-module",
     "version": "1.0.0",
     "license": "UNLICENSED",
     "main": "dist/index.js",
@@ -11,10 +11,7 @@
         "test:all": "npm run test test/**/*.spec.ts test/**/**/*.spec.ts test/**/**/**/*.spec.ts"
     },
     "dependencies": {
-        "@dfgpublicidade/node-app-module": "git+https://github.com/dfg-publicidade/node-app-module.git",
-        "@dfgpublicidade/node-url-module": "git+ssh://git@github.com/dfg-publicidade/node-url-module.git",
-        "js-brasil": "^2.3.8",
-        "validator": "^13.5.1"
+        "@dfgpublicidade/node-app-module": "git+https://github.com/dfg-publicidade/node-app-module.git"
     },
     "devDependencies": {
         "@dfgpublicidade/eslint-config": "git+ssh://git@github.com/dfg-publicidade/eslint-config.git",
