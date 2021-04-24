@@ -39,6 +39,9 @@ class Util {
         return obj;
     }
     static async delay(ms) {
+        if (!ms) {
+            throw new Error('Delay duration must me set.');
+        }
         return new Promise((resolve) => {
             setTimeout(resolve, ms);
         });

@@ -55,7 +55,7 @@ class Util {
 
     public static async delay(ms: number): Promise<void> {
         if (!ms) {
-            throw new Error('Delay duration must me set.')
+            throw new Error('Delay duration must me set.');
         }
 
         return new Promise<void>((
