@@ -75,7 +75,7 @@ describe('index.ts', (): void => {
         expect(delayError.message).to.be.eq('Delay duration must me set.');
     });
 
-    it('5. delay100ms', async (): Promise<void> => {
+    it('6. delay100ms', async (): Promise<void> => {
         const delayTime: number = 100;
         const tolerance: number = 10;
 
