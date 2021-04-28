@@ -63,7 +63,7 @@ describe('index.ts', (): void => {
     });
 
     it('5. delay', async (): Promise<void> => {
-        let delayError;
+        let delayError: any;
         try {
             await Util.delay(undefined);
         }
